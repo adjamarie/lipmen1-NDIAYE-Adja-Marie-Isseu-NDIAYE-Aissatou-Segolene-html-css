@@ -2,7 +2,7 @@
 
 body
 {
-    background: url('image/a.jpg');
+    background: url('a.jpg');
     font-family: 'Trebuchet MS', Arial, sans-serif;
     color: #181818;
 }
@@ -103,7 +103,7 @@ nav a:hover
     margin-top: 15px;
     height: 500px;
     border-radius: 5px;
-    background: url('image/galaxy-watch-4-1-1.jpg') ;
+    background: url('galaxy-watch-4-1-1.jpg') ;
     position: relative;
     box-shadow: 0px 4px 4px #1c1a19;
     margin-bottom: 25px;
