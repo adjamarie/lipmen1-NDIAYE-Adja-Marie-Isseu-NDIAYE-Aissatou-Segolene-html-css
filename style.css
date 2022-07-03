@@ -1,0 +1,389 @@
+/* Eléments principaux de la page */
+
+body
+{
+    background: url('image/a.jpg');
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: #181818;
+}
+
+#bloc_page
+{
+    width: 1200px;
+    margin: auto;
+}
+
+section h1, footer h1, nav a
+{
+    font-family: Dayrom, serif;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+/* Header */
+
+header
+{
+    background: url('images/separateur.png') repeat-x bottom;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+#titre_principal
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#logo
+{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+#logo img
+{
+    width: 120px;
+    height: 120px;
+}
+
+header h1
+{
+    font-family: 'BallparkWeiner', serif;
+    font-size: 2.5em;
+    font-weight: normal;
+    margin: 0 0 0 10px;
+}
+
+header h2
+{
+    font-family: Dayrom, serif;
+    font-size: 1.1em;
+    margin-top: 0px;
+    font-weight: normal;
+}
+
+
+/* Navigation */
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+}
+
+nav li
+{
+    margin-right: 15px;
+}
+
+nav a
+{
+    font-size: 1.3em;
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    color: #760001;
+    border-bottom: 3px solid #760001;
+}
+
+
+
+
+/* Bannière */
+
+#banniere_image
+{
+    margin-top: 15px;
+    height: 500px;
+    border-radius: 5px;
+    background: url('image/galaxy-watch-4-1-1.jpg') ;
+    position: relative;
+    box-shadow: 0px 4px 4px #1c1a19;
+    margin-bottom: 25px;
+}
+
+#banniere_description
+{
+    position: absolute;
+    bottom: 0;
+    border-radius: 0px 0px 5px 5px;
+    width: 99.5%;
+    height: 60px;
+    padding-top: 15px;
+    padding-left: 4px;
+    background-color: rgba(24,24,24,0.8);
+    color: white;
+    font-size: 1em;
+    
+}
+
+
+
+.bouton_rouge img
+{
+    border: 0;
+}
+
+
+
+header{
+
+}
+#section1, #section2, #section3{
+    display:inline-block;
+    text-align: center;
+    margin-left: 75px;
+    size: 100px;
+    } img{
+    width: 400px;
+    height: 400px;
+}
+#section4{
+    text-align: center;
+    color: black;
+    font-style: italic;
+    font-size: 30px;
+}
+
+#section6
+{
+   margin-left: 20px; text-align: end;
+}
+
+#section5, #section6{
+    
+    display: inline-block;
+    text-align: center;
+    margin-left: 50px;
+    height: 05px;
+    font-style: italic;
+    
+
+
+}
+
+
+footer
+{
+    text-align: center;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    font-style: algerian;
+    border-width: 10px;
+}
+
+#section7, #section8, #section9, #section10, #section16,#section27{
+    display: inline-block;
+    margin-top: 15px;
+    height: 100px;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 0px 4px 4px #1c1a19;
+    margin-bottom: 25px;
+    
+}
+
+
+
+
+
+
+
+/* Corps */
+
+
+article, aside
+{
+    text-align: justify;
+}
+
+article
+{
+    margin-right: 100px;
+    margin-left: 100px;
+    font-style: italic;
+    flex: 3;
+       
+}
+
+.ico_categorie
+{
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+article p
+{
+    font-size: 0.8em;
+}
+
+aside
+{
+    flex: 1.2;
+    position: relative;
+    background-color: #b97f35;
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-size: 0.9em;
+}
+
+
+
+
+aside img
+{
+    margin-right: 5px;
+}
+
+
+
+#section23, #section24, #section25{
+    display:inline-block;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 180px;}
+
+   
+    
+
+    #section22{
+        background-color: rgba(9, 35, 72, 0.185);
+        text-align: center;
+        margin-right: 60px;} img{
+          width: 300px;
+          height: 300px;
+        }
+      
+        
+
+        .para1, .para2, .para3, .para4, .para5, .para6{
+            height : 10px;
+        }
+
+
+      
+     
+          .card {
+            width: 70%;
+            padding: 30px 90px 90px 90px;
+            border: 6px solid rgba(0, 0, 0, 0.3);
+            box-shadow: 20px 20px 0 rgba(0, 0, 0, 0.3);
+            border-radius: 50px;
+            position: relative;
+          }
+          
+          .card h2 {
+            color: rgba(0, 0, 0, 0.3);
+            font-size: 60px;
+            text-transform: uppercase;
+          }
+          
+          .card .row {
+            position: relative;
+            width: 100%;
+            display: grid;
+            grid: auto / auto auto;
+            grid-template-columns: repeat(auto-fit,minmax(40%, 1fr));
+            grid-gap: 30px;
+          }
+          
+          .card .row .col {
+            position: relative;
+            width: 100%;
+            margin: 30px 20px 40px 0;
+            transition: 0.5s;
+          }
+          
+          .card .row .form-group {
+            position: relative;
+            width: 100%;
+            height: 40px;
+            color: #100f0f;
+          }
+          
+          .card .row .form-group input,
+          .card .row .form-group textarea {
+            position: absolute;
+            width: 90%;
+            height: 100%;
+            background: transparent;
+            outline: none;
+            font-size: 24px;
+            padding: 10px 0 10px 20px;
+            border: 5px solid rgba(0, 0, 0, 0.3);
+            box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.3);
+            color: #121111;
+            border-radius: 50px;
+          }
+          
+          .card .row .form-group label {
+            line-height: 40px;
+            color: #090909;
+            font-size: 24px;
+            margin: 0 0 0 30px;
+            display: block;
+            pointer-events: none;
+          }
+          
+          .row .col:nth-child(6) {
+            margin-top: 64px;
+          }
+          
+          .card .row .form-group input:focus,
+          .card .row .form-group textarea:focus {
+            border: 5px solid #080808;
+            transition: all 0.5s;
+          }
+          
+          .card .row input[type="submit"] {
+            border: 5px solid rgba(0, 0, 0, 0.3);
+            box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.3);
+            padding: 10px;
+            height: 100%;
+            width: 50%;
+            cursor: pointer;
+            outline: none;
+            background: transparent;
+            text-transform: uppercase;
+            color: #0e0e0e;
+            line-height: 40px;
+            font-size: 24px;
+            font-weight: 700;
+            border-radius: 45px;
+            transition: all 0.4s;
+          }
+          
+          .card .row input[type="submit"]:hover {
+            border: 5px solid rgb(16, 16, 16);
+            color: #161515;
+            transition: all 0.4s;
+          }
+          
+          @media screen and (max-width: 900px) {
+            .card .row {
+              grid-template-columns: repeat(auto-fit,minmax(70%, 1fr));
+            }
+            
+            .card {
+              padding: 20px;
+            }
+            
+            .card h2 {
+              font-size: 34px;
+            }
+            
+            .card .row input[type="submit"] {
+              width: 100%;
+            }
+          }
+
